@@ -1,4 +1,4 @@
-## WAP To display all the frequencies of all the elements in the list.
+## WAP To display the frequencies of all the elements in the list.
 
 lst=[12,45,45,67,33,45,89,90,89,78,34]
 print(lst)
