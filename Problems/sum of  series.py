@@ -1,5 +1,6 @@
 #18. WAP to find the sum of the given series till n terms
-#1+(1+2)+(1+2+3)+…+(1+2+3+…+n)
+# 1+(1+2)+(1+2+3)+…+(1+2+3+…+n)
+
 
 
 
