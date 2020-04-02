@@ -1,2 +1,4 @@
 # Python
-All the tutorials, codes and important topics i have performed till now. 
+
+This Repository contains all the python Codes and Tutorials from Various Coding Platforms.
+ 

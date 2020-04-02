@@ -8,21 +8,21 @@ b=['Aditya','Kalra','is','broke']
 s=" "
 m="-"
 
-
-
 # Syntax of joining a connector to a list(String based) and removing parenthesis
-
 #var=connector.join(list_name)
 
-p=s.join(a)
-q=m.join(a)
-j=s.join(b)
-t=m.join(b)
 
-print(p)
-print(q)
-
+print(s.join(a))
+print(m.join(a))
 print()
+print(s.join(b))
+print(m.join(b))
 
-print(j)
-print(t)
+## OUTPUT:
+
+
+# 1 2 3 4 5
+# 1-2-3-4-5
+
+# Aditya Kalra is broke
+# Aditya-Kalra-is-broke

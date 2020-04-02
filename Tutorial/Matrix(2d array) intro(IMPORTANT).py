@@ -1,7 +1,5 @@
 # A basic code for matrix input from user
 
-
-
 # For small Inbalanced Matrix Use This CODE:
 # Where Rows != Columns
 
