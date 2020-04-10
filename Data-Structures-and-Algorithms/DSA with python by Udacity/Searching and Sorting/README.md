@@ -12,7 +12,10 @@
 
 5. Quick Sort
 
-|    **Algorithm** |	     **Time Complexity**                     |
+
+### Time Complexities of Different Sorting Algorithms
+
+
 |------------------|-----------------|---------------|---------------|
 |                  |      Best	     |   Average 	 |   Worst	     |
 |------------------|-----------------|---------------|---------------|
