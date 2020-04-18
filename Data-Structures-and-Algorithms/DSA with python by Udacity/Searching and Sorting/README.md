@@ -2,9 +2,17 @@
 
 ### Algorithms practiced:
 
-1. Binary Search
+1. Binary Search:
+
+- Works only on Sorted Array
+
+- Searching from both sides
+
+![](images/Binary-Search.png)
 
 2. Recursion
+
+![](images/recursion.png)
 
 3. Bubble Sort
 
