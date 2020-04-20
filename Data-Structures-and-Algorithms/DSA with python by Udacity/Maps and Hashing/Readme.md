@@ -23,7 +23,7 @@ Credits - [Wikipedia](https://en.wikipedia.org/wiki/Hash_table)
 
 #### Time complexity in big O notation
 
-|**Algorithm|  Average     | Worst case** |
+|  Algorithm|  Average     | Worst case   |
 |-----------|--------------|--------------|
 |Space		| O(n)         | O(n)|
 |Search		| O(1)	       | O(n)|
