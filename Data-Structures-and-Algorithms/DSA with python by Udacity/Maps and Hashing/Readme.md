@@ -18,3 +18,14 @@ where the hash function generates the same index for more than one key.
 Source - [By Jorge Stolfi - Own work, CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=6471238)
 
 Credits - [Wikipedia](https://en.wikipedia.org/wiki/Hash_table)
+
+### Complexities:
+
+#### Time complexity in big O notation
+
+|**Algorithm|  Average     | Worst case** |
+|-----------|--------------|--------------|
+|Space		| O(n)         | O(n)|
+|Search		| O(1)	       | O(n)|
+|Insert		| O(1)	       | O(n)|
+|Delete		| O(1)	       | O(n)|
