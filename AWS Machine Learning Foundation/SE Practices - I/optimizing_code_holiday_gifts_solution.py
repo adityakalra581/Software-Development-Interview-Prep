@@ -35,6 +35,10 @@ for cost in gift_costs:
 print(total_price)
 print('Duration: {} seconds'.format(time.time() - start))
 
+# OUTPUT:
+# 32403404.16
+# Duration: 5.570346832275391 seconds
+
 
 # Here you iterate through each cost in the list, and check if it's less than 25. If so, you add the cost to the total price after tax. This works, but there is a much faster way to do this. Can you refactor this to run under half a second?
 
@@ -51,6 +55,9 @@ print(total_price)
 
 print('Duration: {} seconds'.format(time.time() - start))
 
+# OUTPUT:
+# 32403404.16
+# Duration: 0.11853337287902832 seconds
 
 # In[ ]:
 
