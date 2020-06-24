@@ -1,6 +1,6 @@
 # Topics Covered:
 
-1. Test Driven Development(TDD)
+### 1. Test Driven Development(TDD)
 
 Test driven development for data science is relatively new and has a lot of experimentation and breakthroughs appearing,
 which you can learn more about in the resources below.
