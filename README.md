@@ -3,6 +3,10 @@
 This Repository contains all the python Codes and Tutorials from Various Coding Platforms.
 I have linked the important libraries in this readme anyways for reference as well.
  
+ 
+### [Pylint](https://www.pylint.org/) 
+- Pylint is a tool that checks for errors in Python code, tries to enforce a coding standard and looks for code smells. It can also look for certain type errors, it can recommend suggestions about how particular blocks can be refactored and can offer you details about the code's complexity.
+
 ### [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 
 This document gives coding conventions for the Python code comprising the standard library in the main Python distribution. Please see the companion informational PEP describing style guidelines for the C code in the C implementation of Python.
