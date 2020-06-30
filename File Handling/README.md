@@ -1,0 +1,5 @@
+## File Handling in Python
+
+### What are Binary Files:
+
+A [binary file](https://en.wikipedia.org/wiki/Binary_file) is a computer file that is not a text file.[1] The term "binary file" is often used as a term meaning "non-text file". Many binary file formats contain parts that can be interpreted as text; for example, some computer document files containing formatted text, such as older Microsoft Word document files, contain the text of the document but also contain formatting information in binary form.
