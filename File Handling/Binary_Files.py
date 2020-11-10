@@ -1,6 +1,4 @@
 ## No need to create a file. Once you give a write command the file will be created automatically.
-
-
 ## Writing into a Binary File:
 
 numbers = [1,2,3,4]
@@ -11,6 +9,9 @@ numbers = [1,2,3,4]
 with open("binary1", "bw") as bin:
     bin.write(bytes(numbers))
 
+## Bytes will convert numbers into Hexadecimal.
+## 1 = 01
+## 2 = 02
 
 ## Reading the content of Binary file:
 
