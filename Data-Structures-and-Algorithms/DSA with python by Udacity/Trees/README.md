@@ -17,11 +17,31 @@
 
 #### Height and Depth of a Tree:
 
-![](height-and-depth.png)
+![](images/height-and-depth.png)
+
+**Finding Height of a Binary Tree:**
+
+- Logic: 
+
+1. **If:** the root node is None return -1 as the height starts from zero
+
+2. **Else:** Using recursive call find-max of left root node and right root node and add 1
+
+`
+def height(root):
+    if root is None:
+        return -1
+    return max(height(root.left), height(root.right)) + 1
+
+print("Height of the given tree is:",height(tree.root))
+`
+
+
+**Reference**: [Educative.io Binary tree height](https://www.educative.io/edpresso/how-to-find-the-height-of-a-binary-tree)
 
 #### Level of a tree:
 
-![](Tree_level.png)
+![](images/Tree_level.png)
 
 <!-- **************************************** -->
 

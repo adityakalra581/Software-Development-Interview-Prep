@@ -65,6 +65,17 @@ print(tree.search(5))
 # right child of 1st child (5) - 
 # Second right child (3).
 
+# ***************************************
+
+## INPUT TREE:
+# ##     1
+#       / \
+#      2   3
+#     / \
+#    4   5
+
+## Height = 2
+
 print(tree.print_tree())
 
 ### OUTPUT:
@@ -72,3 +83,14 @@ print(tree.print_tree())
 # True
 # False
 # 1-2-4-5-3
+
+### Height of a Binary Tree:
+
+def height(root):
+    if root is None:
+        return -1
+    return max(height(root.left), height(root.right)) + 1
+
+print("Height of the given tree is:",height(tree.root))
+
+## OUTPUT: Height of the given tree is: 2
