@@ -6,10 +6,24 @@
 ![](images/pre-in-post.png)
 
 
-Depth First Traversals:
-(a) Inorder (Left, Root, Right) : 
-(b) Preorder (Root, Left, Right) : 
-(c) Postorder (Left, Right, Root) : 
+
+- Depth First Traversals:
+
+- (a) Inorder (Left, Root, Right) : 
+
+- (b) Preorder (Root, Left, Right) : 
+
+- (c) Postorder (Left, Right, Root) : 
+
+#### Height and Depth of a Tree:
+
+![](height-and-depth.png)
+
+#### Level of a tree:
+
+![](Tree_level.png)
+
+<!-- **************************************** -->
 
 #### References:
 
