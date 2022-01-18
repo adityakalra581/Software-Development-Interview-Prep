@@ -1,6 +1,6 @@
 ### Q.1 Difference between Package and Module.
 
-Sol : [Module vs Package Vs Library](https://knowpapa.com/modpaclib-py/)
+Sol : [Module vs Package Vs Library](https://knowpapa.com/modpaclib-py/){:target="_blank"}
 
 ### Q.2 What is the difference between a package and a library in Python?
 Sol: Package is a collection of modules. It must contain an init.py file as a flag so that the python interpreter processes it as such.
@@ -8,13 +8,14 @@ Sol: Package is a collection of modules. It must contain an init.py file as a fl
 
 ### Q.3 What is for-else Statement.
 
-Sol : [For Else in Python](https://www.w3schools.com/python/gloss_python_for_else.asp)
+Sol : [For Else in Python](https://www.w3schools.com/python/gloss_python_for_else.asp){:target="_blank"}
+     Other relatable questions can be from 1. For pass, 2. For Continue, 3. For Break
 
 
 ### Q.4 Explain Exception in python, also whether it comes in run time errors or not.
 
-Sol : [Errors in Python](https://www.tutorialspoint.com/Are-Python-Exceptions-runtime-errors)
+Sol : [Errors in Python](https://www.tutorialspoint.com/Are-Python-Exceptions-runtime-errors){:target="_blank"}
 
 ### Q.5 Difference between Python 2 and 3.
 
-Sol : [Python 2 vs Python 3](https://www.guru99.com/python-2-vs-python-3.html)
+Sol : [Python 2 vs Python 3](https://www.guru99.com/python-2-vs-python-3.html){:target="_blank"}
