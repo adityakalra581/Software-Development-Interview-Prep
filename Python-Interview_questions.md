@@ -17,7 +17,9 @@ Sol : [For Else in Python](https://www.w3schools.com/python/gloss_python_for_els
 
 ### Q.4 Explain Exception in python, also whether it comes in run time errors or not.
 
-Sol : [Errors in Python](https://www.tutorialspoint.com/Are-Python-Exceptions-runtime-errors)
+Sol : Unexpected event in code execution that disrupts the flow of the code.
+      [Errors in Python](https://www.tutorialspoint.com/Are-Python-Exceptions-runtime-errors)
+     Other useful links: [Built in exceptions in python GFG](https://www.geeksforgeeks.org/built-exceptions-python/)
 
 ### Q.5 Difference between Python 2 and 3.
 
