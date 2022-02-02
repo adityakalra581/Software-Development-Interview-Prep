@@ -24,3 +24,14 @@ Sol : Unexpected event in code execution that disrupts the flow of the code.
 ### Q.5 Difference between Python 2 and 3.
 
 Sol : [Python 2 vs Python 3](https://www.guru99.com/python-2-vs-python-3.html)
+
+### Q.6 Explain decorators
+
+### Q.7 Architecture of Django
+
+### Q.8 What are http verbs
+
+### Q.9 Post vs Put
+
+### Q.10 Explain patch(http verb)
+
