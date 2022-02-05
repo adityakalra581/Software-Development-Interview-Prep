@@ -35,3 +35,9 @@ Sol : [Python 2 vs Python 3](https://www.guru99.com/python-2-vs-python-3.html)
 
 ### Q.10 Explain patch(http verb)
 
+### Q.11 Explain async io in python
+
+### Q.12 Status codes
+Sol: [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status), 
+[Rest Api tutorial](https://www.restapitutorial.com/httpstatuscodes.html)
+
