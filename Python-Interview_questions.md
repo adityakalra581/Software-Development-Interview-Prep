@@ -41,3 +41,8 @@ Sol : [Python 2 vs Python 3](https://www.guru99.com/python-2-vs-python-3.html)
 Sol: [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status), 
 [Rest Api tutorial](https://www.restapitutorial.com/httpstatuscodes.html)
 
+### Q.13 Explain Memoisation
+
+### Q.14 Why recursion is some cases not considered as efficient
+
+### Q.15 Explain dynamic programming

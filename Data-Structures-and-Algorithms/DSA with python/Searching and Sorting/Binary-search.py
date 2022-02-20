@@ -49,4 +49,6 @@ print(binary_search(test_list, test_val4))
 # -1
 # -1
 
+## Time Complexity: O(logn) 
+
 # **********************************
