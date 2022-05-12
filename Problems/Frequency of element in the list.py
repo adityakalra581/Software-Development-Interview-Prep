@@ -26,3 +26,18 @@ for j in range(len(m)):
     print(l[j],'\t\t\t\t',m[j])
     # The above command will print value of l[j] and then m[j].
 
+print("------------------------------------------------------------------------")
+
+##Approach 2 Using Dictionary/HashMap
+
+count = {}
+
+for i in lst:
+    if i not in count.keys():
+        # Insert into count with initial value as 1
+        count[i] = 1
+    else:
+        count[i] += 1
+
+
+print("Frequency of Elements: ", count)

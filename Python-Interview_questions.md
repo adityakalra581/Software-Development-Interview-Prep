@@ -1,6 +1,6 @@
 ### Q.1 Difference between Package and Module.
 
-Sol : [Module vs Package Vs Library](https://knowpapa.com/modpaclib-py/)
+Sol : [Module vs Package Vs Library](https://techvidvan.com/tutorials/modules-vs-packages-in-python/#:~:text=A%20module%20is%20a%20file,with%20the%20locally%20extracted%20variables.)
 
 ### Q.2 What is the difference between a package and a library in Python?
 Sol: Package is a collection of modules. It must contain an init.py file as a flag so that the python interpreter processes it as such.
@@ -46,3 +46,63 @@ Sol: [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/H
 ### Q.14 Why recursion is some cases not considered as efficient
 
 ### Q.15 Explain dynamic programming
+
+<!-- -------------------------------------- -->
+
+1. How do we write codes in python?
+2. What is ‘suite’?
+3. What are the different data types in python?
+4. What are different ways to concatenate a tuple?
+5. What is a slice operator?
+6. What are the different types of functions in python?
+7. Can you define a class in python? How will you write a code and it’s method for an Employee class?
+Create a method to print and call an object for this class.
+8. What is init and self keywords in python?
+9. What is pass statement?
+10. How can you get a first digit of a string?
+11. Regular expressions?
+12. Which class do we use for ‘regular expression’ in python?
+
+<!-- ------------------------------------------------ -->
+
+### [Django Interview Questions InterviewBit](https://www.interviewbit.com/django-interview-questions/)
+
+### [Django interview Question Video Tutorial](https://youtu.be/9ai0b1LRMQM)
+
+
+Timestamps
+ How comfortable are you with Python?
+ HTML/CSS Skill level?
+ Any JavaScript Experience?
+ What is Django?
+ What can you build with Django?
+ Difference Between a Project & App?
+ How do we initialize a project?
+ How do we initialize an app?
+ How do we start our development server?
+ What does the settings.py file do?
+ What are models? What are views? What are templates?
+ What are url patterns?
+ What is the Django Admin panel?
+ Make migrations & migrate command
+ FBV vs CBV
+What database system do you prefer?
+How do you set up a database connection?
+Why do we add names to URL's & how do we access them dynamically?
+Where do we store templates?
+Django Templating Language
+What are static files?
+Serving static files during development?
+  What is MEDIA_ROOT
+What does "python manage.py collectstatic" do?
+Serving static files during production?
+Common Model attributes
+Querying the database
+What are CSRF Tokens?
+What are Model Forms?
+What is DRF?
+What are Django Signals?
+How can we set restrictions on views?
+What are Model Serializers?
+
+<!-- ------------------------------------------------------------ -->

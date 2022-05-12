@@ -1,0 +1,17 @@
+Coding Test on HackerRank
+
+Q.1 Device Name System: 
+The aim is to create unique device names. If a device already exists with a similar name, append an integer incremented by 1 for each occurrence.
+
+Input: ['lamp', 'lamp', 'tv', 'lamp']
+
+Expected Output: ['lamp', 'lamp1', 'tv', 'lamp2']
+
+Reference: https://stackoverflow.com/questions/62929107/creating-unique-device-names
+
+
+Q.2 Math Homework
+Reference: https://leetcode.com/discuss/interview-question/799301/students-have-been-assigned-a-series-of-math-problems
+
+Q.3 Number of Moves
+Reference: https://leetcode.com/discuss/interview-question/865012/number-of-moves-chessboard-online-assessment-hackerrank
