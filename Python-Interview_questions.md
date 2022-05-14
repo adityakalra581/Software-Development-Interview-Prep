@@ -1,12 +1,12 @@
-### Q.1 Difference between Package and Module.
+1. Difference between Package and Module.
 
 Sol : [Module vs Package Vs Library](https://techvidvan.com/tutorials/modules-vs-packages-in-python/#:~:text=A%20module%20is%20a%20file,with%20the%20locally%20extracted%20variables.)
 
-### Q.2 What is the difference between a package and a library in Python?
+2. What is the difference between a package and a library in Python?
 Sol: Package is a collection of modules. It must contain an init.py file as a flag so that the python interpreter processes it as such.
      The init.py could be an empty file without causing issues. Library is a collection of packages.
 
-### Q.3 What is for-else Statement.
+3. What is for-else Statement.
 
 Sol : [For Else in Python](https://www.w3schools.com/python/gloss_python_for_else.asp)
      Other relatable questions can be from
@@ -15,39 +15,34 @@ Sol : [For Else in Python](https://www.w3schools.com/python/gloss_python_for_els
      3. For Break
 
 
-### Q.4 Explain Exception in python, also whether it comes in run time errors or not.
+4. Explain Exception in python, also whether it comes in run time errors or not.
 
 Sol : Unexpected event in code execution that disrupts the flow of the code.
       [Errors in Python](https://www.tutorialspoint.com/Are-Python-Exceptions-runtime-errors)
      Other useful links: [Built in exceptions in python GFG](https://www.geeksforgeeks.org/built-exceptions-python/)
 
-### Q.5 Difference between Python 2 and 3.
+5. Difference between Python 2 and 3.
 
 Sol : [Python 2 vs Python 3](https://www.guru99.com/python-2-vs-python-3.html)
 
-### Q.6 Explain decorators
+6. Explain decorators
+7. Architecture of Django
+8. What are http verbs
+9. Post vs Put
+10. Explain patch(http verb)
+11. Explain async io in python
+12. Status codes
 
-### Q.7 Architecture of Django
-
-### Q.8 What are http verbs
-
-### Q.9 Post vs Put
-
-### Q.10 Explain patch(http verb)
-
-### Q.11 Explain async io in python
-
-### Q.12 Status codes
 Sol: [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status), 
 [Rest Api tutorial](https://www.restapitutorial.com/httpstatuscodes.html)
 
-### Q.13 Explain Memoisation
-
-### Q.14 Why recursion is some cases not considered as efficient
-
-### Q.15 Explain dynamic programming
+13. Explain Memoisation
+14. Why recursion is some cases not considered as efficient
+15. Explain dynamic programming
 
 <!-- -------------------------------------- -->
+
+### Core Python Interview Questions
 
 1. How do we write codes in python?
 2. What is ‘suite’?
@@ -70,39 +65,81 @@ Create a method to print and call an object for this class.
 ### [Django interview Question Video Tutorial](https://youtu.be/9ai0b1LRMQM)
 
 
-Timestamps
- How comfortable are you with Python?
- HTML/CSS Skill level?
- Any JavaScript Experience?
- What is Django?
- What can you build with Django?
- Difference Between a Project & App?
- How do we initialize a project?
- How do we initialize an app?
- How do we start our development server?
- What does the settings.py file do?
- What are models? What are views? What are templates?
- What are url patterns?
- What is the Django Admin panel?
- Make migrations & migrate command
- FBV vs CBV
-What database system do you prefer?
-How do you set up a database connection?
-Why do we add names to URL's & how do we access them dynamically?
-Where do we store templates?
-Django Templating Language
-What are static files?
-Serving static files during development?
-  What is MEDIA_ROOT
-What does "python manage.py collectstatic" do?
-Serving static files during production?
-Common Model attributes
-Querying the database
-What are CSRF Tokens?
-What are Model Forms?
-What is DRF?
-What are Django Signals?
-How can we set restrictions on views?
-What are Model Serializers?
+1. How comfortable are you with Python?
+2. HTML/CSS Skill level?
+3. Any JavaScript Experience?
+4. What is Django?
+5. What can you build with Django?
+6. Difference Between a Project & App?
+7. How do we initialize a project?
+8. How do we initialize an app?
+9. How do we start our development server?
+10. What does the settings.py file do?
+11. What are models? What are views? What are templates?
+12. What are url patterns?
+13. What is the Django Admin panel?
+14. Make migrations & migrate command
+15. FBV vs CBV
+16. What database system do you prefer?
+17. How do you set up a database connection?
+18. Why do we add names to URL's & how do we access them dynamically?
+19. Where do we store templates?
+20. Django Templating Language
+21. What are static files?
+22. Serving static files during development?
+23. What is MEDIA_ROOT
+24. What does "python manage.py collectstatic" do?
+25. Serving static files during production?
+26. Common Model attributes
+27. Querying the database
+28. What are CSRF Tokens?
+29. What are Model Forms?
+30. What is DRF?
+31. What are Django Signals?
+32. How can we set restrictions on views?
+33. What are Model Serializers?
 
 <!-- ------------------------------------------------------------ -->
+
+### TCS Technical Interview 14th May 2022
+
+**- Django**
+
+1. Architecture of Django
+2. Database connection in Django
+
+**- SQL**
+
+3. What is ORM and have you used it, if yes How?
+4. Maximum value of a column in a table
+5. Top 5 values of a column
+
+**- Python**
+
+6. WAP which output a dictionary in which keys are length of a given integer in a list and it's values are that length values in a list
+
+```
+Input:
+temp = [1,2,100,200,30]
+
+output = {}
+## {1: [1,2]; 3:[100,200]; 2:[30]}
+
+# Key: length of int
+# Value: length matches the key it should be in list
+```
+```
+Solution:
+
+for i in temp:
+    length = len(str(i))
+    if length in output.keys():
+        output[length].append(i)
+    else:
+        output[length] = [i]
+
+print(output)
+```
+7. What are APIs
+8. Difference between PUT and POST methods
+9. What is Filter, Map and Reduce
