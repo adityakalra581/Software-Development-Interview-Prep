@@ -101,16 +101,16 @@ Create a method to print and call an object for this class.
 
 <!-- ------------------------------------------------------------ -->
 
-### TCS Technical Interview 14th May 2022
+### TCS Technical Interview 14th and 16th May 2022
 
 **- Django**
 
 1. Architecture of Django
-2. Database connection in Django
+2. Database connection in Django. Difference between MVC and MVT architecture
+3. What is ORM and have you used it, if yes How?
 
 **- SQL**
 
-3. What is ORM and have you used it, if yes How?
 4. Maximum value of a column in a table
 5. Top 5 values of a column
 
@@ -143,3 +143,10 @@ print(output)
 7. What are APIs
 8. Difference between PUT and POST methods
 9. What is Filter, Map and Reduce
+10. How to open a file in python
+11. Explain **with** keyword
+12. Give few example of the math functions
+13. Explain and give examples of short hand operators
+14. Is python dynamically typed language
+15. Is numpy series a linear data structure.
+16. List vs numpy array?
