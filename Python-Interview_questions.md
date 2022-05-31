@@ -150,3 +150,34 @@ print(output)
 14. Is python dynamically typed language
 15. Is numpy series a linear data structure.
 16. List vs numpy array?
+
+<!-- ------------------------------------------------------------ -->
+
+### Sunday Labs Technical Interview 27th May 2022
+
+1. Second highest salary in a column (SQL)
+
+```
+select max(salary) from employee where salary<(select max(salary) from emp);
+or
+select *from employee group by salary order by  salary desc limit 1,1;
+```
+solution: [second highest salary article](https://www.geeksforgeeks.org/sql-query-to-find-second-largest-salary/)
+
+2. What is PIP in python
+3. Set vs tuples difference
+4. What are immutable data structures
+5. Difference between the latest python version and versions before that
+6. Coding Question: Reverse the sentence
+
+```
+new = "my name is aditya"
+temp = new.split()[::-1]
+print("Reversed list: ",temp)
+output = []
+
+for i in temp:
+    output.append(i)
+
+print("final result:", " ".join(output))
+```
