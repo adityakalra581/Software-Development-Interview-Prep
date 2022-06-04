@@ -1,7 +1,0 @@
-Q.1 Finding second highest element in an array.
-
-Q.2 Finding duplicates in an array and probably their count.
-
-Q.3 Time complexities of many algorithms and Data structure operations
-
-Q.4 HTTP verbs

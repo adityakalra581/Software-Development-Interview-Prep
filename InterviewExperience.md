@@ -1,5 +1,38 @@
 <!-- ------------------------------------------------------------ -->
 
+## Coding Ninjas Jan 2022
+
+- Q.1 Finding second highest element in an array.
+
+- Q.2 Finding duplicates in an array and probably their count.
+
+- Q.3 Time complexities of many algorithms and Data structure operations
+
+- Q.4 HTTP verbs
+
+## Expedia SDE 2 Hackerrank Test 8th March 2022
+
+Coding Test on HackerRank
+
+- Q.1 Device Name System: 
+
+```
+The aim is to create unique device names. If a device already exists with a similar name, append an integer incremented by 1 for each occurrence.
+
+Input: ['lamp', 'lamp', 'tv', 'lamp']
+
+Expected Output: ['lamp', 'lamp1', 'tv', 'lamp2']
+```
+
+Reference: https://stackoverflow.com/questions/62929107/creating-unique-device-names
+
+
+- Q.2 Math Homework
+Reference: https://leetcode.com/discuss/interview-question/799301/students-have-been-assigned-a-series-of-math-problems
+
+- Q.3 Number of Moves
+Reference: https://leetcode.com/discuss/interview-question/865012/number-of-moves-chessboard-online-assessment-hackerrank
+
 ### TCS Technical Interview 14th and 16th May 2022
 
 **- Django**
@@ -225,3 +258,6 @@ Sol: In SQL, a view is a virtual table based on the result-set of an SQL stateme
 4. AWS Lambda
 5. Directories or file structure django vs flask projects
 6. How to better the time to fetch results in sql if the query is already optimized. (Partition or indexing or any other solution)
+
+
+
