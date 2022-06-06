@@ -1,7 +1,11 @@
 
 ### Python Interview Questions 
 
--References: [52 most asked interview questions](https://youtu.be/YeupGcOW-3k)
+
+-References: 
+1. [52 most asked interview questions](https://youtu.be/YeupGcOW-3k)
+2. [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status), 
+3. [Rest Api tutorial](https://www.restapitutorial.com/httpstatuscodes.html)
 
 1. Difference between Package and Module.
 
@@ -46,12 +50,15 @@ Sol: HTTP response status codes indicate whether a specific HTTP request has bee
 - Client error responses (400–499)
 - Server error responses (500–599)
 
-- References: [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status), 
-[Rest Api tutorial](https://www.restapitutorial.com/httpstatuscodes.html)
-
 13. Explain Memoisation
 14. Why recursion is some cases not considered as efficient
 15. Explain dynamic programming
+16. What is 
+```
+if __name__ == "__main__":
+```
+sol: When a module is run directly this condition will hold true and when this module is imported __name__ will be equal to the name of that module.
+Reference: [if __name__ == "__main__":](https://youtu.be/sugvnHA7ElY)
 
 <!-- -------------------------------------- -->
 
@@ -99,6 +106,8 @@ Create a method to print and call an object for this class.
 19. Where do we store templates?
 20. Django Templating Language
 21. What are static files?
+
+<!-- ---------------------------------------------------------- -->
 22. Serving static files during development?
 23. What is MEDIA_ROOT
 24. What does "python manage.py collectstatic" do?

@@ -188,6 +188,7 @@ DELETE FROM EmployeesCTE WHERE RowNumber > 1
 
 
 15. Problem: Every record in the table Person is having incorrect gender, you have to write an update query to fix all the records.
+```
 Expected Result:
 Table Person
 ID	Name		Gender
@@ -209,8 +210,28 @@ WHERE GENDER =”FEMALE”
 UPDATE PERSON
 SET GENDER = “F”
 WHERE GENDER =”MALE”
+```
 
-16. Storage engine in MYSQL
+16. Storage engine in MYSQL.
+sol: 
+- List of storage engines
+MySQL supported storage engines:
+
+1. InnoDB
+2. MyISAM
+3. Memory
+4. CSV
+5. Merge
+6. Archive
+7. Federated
+8. Blackhole
+
+- **InnoDB** is the most widely used storage engine with transaction support. It is an ACID compliant storage engine. **It supports row-level locking, crash recovery and multi-version concurrency control**. It is the only engine which provides foreign key referential integrity constraint. Oracle recommends using InnoDB for tables except for specialized use cases.
+
+- **MyISAM** is the original storage engine. It is a fast storage engine. It does not support transactions. **MyISAM provides table-level locking**. It is used mostly in Web and data warehousing.
+
+- Reference: [Storage Engines in MySQL](https://zetcode.com/mysql/storageengines/)
+
 17. Drawback of auto-increment columns
 18. Table level locking vs row level locking
 19. Max number of triggers on a table, usecase	
@@ -221,6 +242,8 @@ Sol: Simply put, authentication is the process of verifying who someone is, wher
 [Authentication vs Authorization](https://www.sailpoint.com/identity-library/difference-between-authentication-and-authorization/)
 
 22. Oauth2.0 ( basic, bearer token)
+sol: 
+OAuth 2.0, which stands for “Open Authorization”, is a standard designed to allow a website or application to access resources hosted by other web apps on behalf of a user. It replaced OAuth 1.0 in 2012 and is now the de facto industry standard for online authorization.
 
 23. Shallow vs deep copy **[Asked twice atleast]**
 - [Shallow vs Deep copy](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/)
@@ -250,7 +273,9 @@ Sol: In SQL, a view is a virtual table based on the result-set of an SQL stateme
 
 - [View in SQL](https://www.w3schools.com/sql/sql_view.asp)
 
-## Deloitte Technical Interview (AWS-Python profile) 1st June 2022
+### Deloitte Technical Interview (AWS-Python profile) 1st June 2022
+
+- **First round**
 
 1. Flask vs Django
 2. urls in flask or routing in flask
@@ -258,6 +283,22 @@ Sol: In SQL, a view is a virtual table based on the result-set of an SQL stateme
 4. AWS Lambda
 5. Directories or file structure django vs flask projects
 6. How to better the time to fetch results in sql if the query is already optimized. (Partition or indexing or any other solution)
+
+- **Second Round** [Mostly AWS]
+
+1. What is AMI
+2. What is AWS lambda
+3. What do you understand by Serverless
+4. EC2 vs Lambda
+5. Use cases of lambda function
+6. What is lambda layer
+7. Extra storage in EC2
+8. What tier do you use for s3 bucket
+
+and a lot about EC2 ..................
+
+9. Modules you have used in python.
+10. Rank vs Dense Rank   
 
 
 

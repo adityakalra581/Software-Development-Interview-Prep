@@ -1,7 +1,7 @@
 
 new = "my name is aditya"
 temp = new.split()[::-1]
-print("Reversed list: ",temp1)
+print("Reversed list: ",temp)
 output = []
 
 
@@ -10,6 +10,5 @@ for i in temp:
 
 
 print("final result:", " ".join(output))
-
 
 
