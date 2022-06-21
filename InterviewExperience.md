@@ -1,6 +1,7 @@
 <!-- ------------------------------------------------------------ -->
 
-## Coding Ninjas Jan 2022
+### Coding Ninjas Jan 2022
+**[FAILED SECOND ROUND]**
 
 - Q.1 Finding second highest element in an array.
 
@@ -10,8 +11,8 @@
 
 - Q.4 HTTP verbs
 
-## Expedia SDE 2 Hackerrank Test 8th March 2022
-
+### Expedia SDE 2 Hackerrank Test 8th March 2022
+**[CLEARED]**
 Coding Test on HackerRank
 
 - Q.1 Device Name System: 
@@ -34,6 +35,7 @@ Reference: https://leetcode.com/discuss/interview-question/799301/students-have-
 Reference: https://leetcode.com/discuss/interview-question/865012/number-of-moves-chessboard-online-assessment-hackerrank
 
 ### TCS Technical Interview 14th and 16th May 2022
+**[CLEARED]**
 
 **- Django**
 
@@ -75,6 +77,10 @@ print(output)
 7. What are APIs
 8. Difference between PUT and POST methods
 9. What is Filter, Map and Reduce
+
+Sol: reduce() works differently than map() and filter() . It does not return a new list based on the function and iterable we've passed. Instead, it returns a single value. Also, in Python 3 reduce() isn't a built-in function anymore, and it can be found in the functools module.
+Reference: [Filter, Map and Reduce](https://www.analyticsvidhya.com/blog/2021/07/python-most-powerful-functions-map-filter-and-reduce-in-5-minutes/)
+
 10. How to open a file in python
 11. Explain **with** keyword
 12. Give few example of the math functions
@@ -85,7 +91,8 @@ print(output)
 
 <!-- ------------------------------------------------------------ -->
 
-### Sunday Labs Technical Interview 27th May 2022
+### Sunday Labs Technical Interview 27th May 2022 
+**[FAILED]**
 
 1. Second highest salary in a column (SQL)
 
@@ -114,7 +121,8 @@ for i in temp:
 print("final result:", " ".join(output))
 ```
 
-## ZENARATE Technical interview may 31st
+### ZENARATE Technical interview may 31st
+**[FAILED]**
 
 
 1. Diamond Problem 
@@ -153,6 +161,8 @@ If newString == temp:
 ```
 String_original = “asdhakafhAditaksdakAdityadas”
 Substring = “Aditya”
+
+Expected Output: ['adit','aditya']
 ```
 			
 
@@ -198,18 +208,10 @@ ID	Name		Gender
 4	D		male
 5	E		female
 
-UPDATE PERSON
-SET GENDER = “FEMALE”
-WHERE GENDER =”F”
-
-
-UPDATE PERSON
-SET GENDER = “MALE”
-WHERE GENDER =”FEMALE”
-
-UPDATE PERSON
-SET GENDER = “F”
-WHERE GENDER =”MALE”
+UPDATE Person
+SET gender = CASE WHEN gender = 'male' THEN 'female' 
+                  WHEN gender = 'female' THEN 'male' END
+WHERE gender IN ('male','female')
 ```
 
 16. Storage engine in MYSQL.
@@ -275,7 +277,7 @@ Sol: In SQL, a view is a virtual table based on the result-set of an SQL stateme
 
 ### Deloitte Technical Interview (AWS-Python profile) 1st June 2022
 
-- **First round**
+- **First round** [Cleared]
 
 1. Flask vs Django
 2. urls in flask or routing in flask
@@ -284,9 +286,13 @@ Sol: In SQL, a view is a virtual table based on the result-set of an SQL stateme
 5. Directories or file structure django vs flask projects
 6. How to better the time to fetch results in sql if the query is already optimized. (Partition or indexing or any other solution)
 
-- **Second Round** [Mostly AWS]
+- **Second Round** [Mostly AWS] [Failed] 
 
 1. What is AMI
+- Sol: An Amazon Machine Image (AMI) is a supported and maintained image provided by AWS that provides the information required to launch an instance. You must specify an AMI when you launch an instance. You can launch multiple instances from a single AMI when you require multiple instances with the same configuration. You can use different AMIs to launch instances when you require instances with different configurations.
+
+Reference: [Amazon Machine Image](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html)
+
 2. What is AWS lambda
 3. What do you understand by Serverless
 4. EC2 vs Lambda
@@ -298,7 +304,154 @@ Sol: In SQL, a view is a virtual table based on the result-set of an SQL stateme
 and a lot about EC2 ..................
 
 9. Modules you have used in python.
-10. Rank vs Dense Rank   
+10. What kind of CI/CD pipeline you use.
+sol: Jenkins we use, other tools are azure pipelines and github actions.
+
+11. Rank vs Dense Rank   
+
+### Bold Interview 1st Round 9th June
+**[Failed]**
+
+1. Return vs Yield keyword
+2. Can we declare a variable using self in one of the functions of a class
+
+```
+class A:
+    some code
+    ...
+
+    def B:
+        self.some_variable
+
+```
+
+can we do this?
+
+3. Shallow vs Deep Copy
+
+```
+## Only = 
+
+lst1 = [1,2,3]
+lst2 = lst1
+
+## Before change
+print(lst2)
+## [1, 2, 3]
+
+lst1[0] = 100
+
+## After change
+print(lst2)
+## [100, 2, 3]
+
+# --------------------------------------------
+
+## Shallow Copy: If we have 1d list the changes in one list won't change the other, but 2d list will be altered with alteration in the original list
+
+
+lst1 = [1,2,3]
+lst2 = lst1.copy()
+
+## Before change
+print(lst2)
+## [1, 2, 3]
+
+lst1[0] = 100
+
+## After change
+print(lst2)
+## [1, 2, 3]
+## There is no change in second list
+
+## Let's try another use case:
+
+temp1 = [[1,2,3],[4,5,6]]
+temp2 = temp1.copy()
+
+print("before altering element: ",temp2)
+
+temp1[1][0] = 1000
+print("After altering element List 1: ",temp1)
+print("After altering element List 2: ",temp2)
+
+# --------------------------------------
+## Output: 
+# before altering element:  [[1, 2, 3], [4, 5, 6]]
+# After altering element List 1:  [[1, 2, 3], [1000, 5, 6]]
+# After altering element List 2:  [[1, 2, 3], [1000, 5, 6]]
+
+# ---------------------------------------------------------------------------
+
+## Deep Copy: The copied list will never be altered with alterations in original list.
+
+import copy
+
+lst1 = [1,2,3]
+lst2 = copy.deepcopy(lst1)
+
+## Before change
+print(lst2)
+## [1, 2, 3]
+
+lst1[0] = 100
+
+## After change
+print(lst2)
+## [1, 2, 3]
+## There is no change in second list
+
+## Let's try another use case:
+
+temp1 = [[1,2,3],[4,5,6]]
+temp2 = copy.deepcopy(temp1)
+
+print("before altering element: ",temp2)
+
+temp1[1][0] = 1000
+print("DeepCopy After altering element List 1: ",temp1)
+print("DeepCopy After altering element List 2: ",temp2)
+
+## Output:
+
+# before altering element:  [[1, 2, 3], [4, 5, 6]]
+# DeepCopy After altering element List 1:  [[1, 2, 3], [1000, 5, 6]]
+# DeepCopy After altering element List 2:  [[1, 2, 3], [4, 5, 6]]
+
+
+
+```
+4. What is destructor
+5. List vs Tuple memory management
+
+### Capgemini AWS-Python Profile 1st Round [20th June 2022]
+**[Cleared]**
+
+- Python and SQL:
+
+1. Shallow vs Deep Copy
+2. Remove duplicates in a column without using distinct
+3. Adding two dataframes in pandas
+4. Reversing a string
+5. Map function
+6. lambda function
+7. List slicing vs split
+8. functions in strings
+9. List Comprehension
+
+- AWS:
+
+1. EC2
+2. S3
+3. Elastic BeanStalk
+4. Lambda [Use Cases]
+5. IM role importance
+6. SQS, SNS services
+7. Different types of services in AWS
+8. Global services in AWS
+9. Region specific services in AWS
+10. How do you use s3 services
+11. Other storage services in AWS apart from s3
 
 
 

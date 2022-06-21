@@ -60,6 +60,119 @@ if __name__ == "__main__":
 sol: When a module is run directly this condition will hold true and when this module is imported __name__ will be equal to the name of that module.
 Reference: [if __name__ == "__main__":](https://youtu.be/sugvnHA7ElY)
 
+17. Shallow vs Deep Copy:
+
+Sol:
+**Shallow Copy**:	
+- Shallow Copy stores the references of objects to the original memory address.   	
+- Shallow Copy reflects changes made to the new/copied object in the original object.	
+- Shallow Copy stores the copy of the original object and points the references to the objects.	
+- Shallow copy is faster.
+
+**Deep Copy**:
+- Deep copy stores copies of the object’s value.
+- Deep copy doesn’t reflect changes made to the new/copied object in the original object.
+- Deep copy stores the copy of the original object and recursively copies the objects as well.
+- Deep copy is comparatively slower.
+
+
+
+Reference: 
+1. [Shallow vs Deep Copy Krish Naik](https://youtu.be/SgUwPDT9tEs)
+2. [GFG Article](https://www.geeksforgeeks.org/difference-between-shallow-and-deep-copy-of-a-class/)
+```
+## Only = 
+
+lst1 = [1,2,3]
+lst2 = lst1
+
+## Before change
+print(lst2)
+## [1, 2, 3]
+
+lst1[0] = 100
+
+## After change
+print(lst2)
+## [100, 2, 3]
+
+# --------------------------------------------
+
+## Shallow Copy: If we have 1d list the changes in one list won't change the other, but 2d list will be altered with alteration in the original list
+
+
+lst1 = [1,2,3]
+lst2 = lst1.copy()
+
+## Before change
+print(lst2)
+## [1, 2, 3]
+
+lst1[0] = 100
+
+## After change
+print(lst2)
+## [1, 2, 3]
+## There is no change in second list
+
+## Let's try another use case:
+
+temp1 = [[1,2,3],[4,5,6]]
+temp2 = temp1.copy()
+
+print("before altering element: ",temp2)
+
+temp1[1][0] = 1000
+print("After altering element List 1: ",temp1)
+print("After altering element List 2: ",temp2)
+
+# --------------------------------------
+## Output: 
+# before altering element:  [[1, 2, 3], [4, 5, 6]]
+# After altering element List 1:  [[1, 2, 3], [1000, 5, 6]]
+# After altering element List 2:  [[1, 2, 3], [1000, 5, 6]]
+
+# ---------------------------------------------------------------------------
+
+## Deep Copy: The copied list will never be altered with alterations in original list.
+
+import copy
+
+lst1 = [1,2,3]
+lst2 = copy.deepcopy(lst1)
+
+## Before change
+print(lst2)
+## [1, 2, 3]
+
+lst1[0] = 100
+
+## After change
+print(lst2)
+## [1, 2, 3]
+## There is no change in second list
+
+## Let's try another use case:
+
+temp1 = [[1,2,3],[4,5,6]]
+temp2 = copy.deepcopy(temp1)
+
+print("before altering element: ",temp2)
+
+temp1[1][0] = 1000
+print("DeepCopy After altering element List 1: ",temp1)
+print("DeepCopy After altering element List 2: ",temp2)
+
+## Output:
+
+# before altering element:  [[1, 2, 3], [4, 5, 6]]
+# DeepCopy After altering element List 1:  [[1, 2, 3], [1000, 5, 6]]
+# DeepCopy After altering element List 2:  [[1, 2, 3], [4, 5, 6]]
+
+
+
+```
+
 <!-- -------------------------------------- -->
 
 ### Core Python Interview Questions
@@ -120,4 +233,9 @@ Create a method to print and call an object for this class.
 31. What are Django Signals?
 32. How can we set restrictions on views?
 33. What are Model Serializers?
+
+### Numpy and Pandas Interview Questions
+
+1. How to add two dataframes
+2. Does Pandas support SQL Queries
 

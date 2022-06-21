@@ -25,8 +25,12 @@ sol: select salary from employee order by salary limit 1 offset n-1;
 Explanation: Here limit 1 means 1 record and after offset just put the index of salary you want. for example if we need
 third highest salary we will write **offset 2**.
 
-2. Rank vs Dense Rank
-3. Partitions
-4. Views
-5. Triggers
-6. Stored procedures
+2. Row_number vs Partition vs Rank vs Dense Rank
+
+- Reference: [Video tutorial on RowNumber,Partition,Rank and DenseRank](https://youtu.be/QFj-hZi8MKk)
+
+3. Views
+4. Triggers
+5. Stored procedures
+
+6. Remove duplicates in a column without using distinct
