@@ -473,10 +473,8 @@ print("DeepCopy After altering element List 2: ",temp2)
 6. SQS, SNS services
 7. Different types of services in AWS
 8. Global and region services in AWS
-9. Storage limit in AWS S3 bucket
 
-sol: The total volume of data and number of objects you can store are unlimited. Individual Amazon S3 objects can range in size from a minimum of 0 bytes to a maximum of 5 TB. The largest object that can be uploaded in a single PUT is 5 GB. For objects larger than 100 MB, customers should consider using the Multipart Upload capability.
------------------------------------------
+```
 sol: 
 - Global Services: Services that has global in the region specification area
 
@@ -492,12 +490,18 @@ sol:
 3. RDS
 4. DynamoDB
 etc.....
-------------------------------------------------------------
+```
+
+9. Storage limit in AWS S3 bucket
+
+sol: The total volume of data and number of objects you can store are unlimited. Individual Amazon S3 objects can range in size from a minimum of 0 bytes to a maximum of 5 TB. The largest object that can be uploaded in a single PUT is 5 GB. For objects larger than 100 MB, customers should consider using the Multipart Upload capability.
+
 
 
 9. How do you use s3 services
 10. Other storage services in AWS apart from s3
-----------------------------------------------
+
+```
 sol:
 1. S3 Glacier
 2. Elastic Block Store (EBS)
@@ -505,7 +509,8 @@ sol:
 4. Amazon Storage Gateway
 5. Snowball
 6. Snowmobile
--------------------------------------------
+
+```
 
 **2nd Round [24th June 2022] [Cleared]**
 
