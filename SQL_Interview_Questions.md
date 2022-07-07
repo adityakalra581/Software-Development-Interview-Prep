@@ -1,6 +1,6 @@
 ## Important SQL QUESTIONS
 
-References:
+- References:
 1. [53 Imp. Questions SQL](https://youtu.be/pKFo8Mqp-cU)
 2. [SQL Interview Questions Interview Bit](https://www.interviewbit.com/sql-interview-questions/)
 
@@ -27,6 +27,23 @@ third highest salary we will write **offset 2**.
 
 2. Row_number vs Partition vs Rank vs Dense Rank
 
+sol: rank creates unique number for different records but same number for same records. Keeping in mind rank will skip the numbers if there are duplicate records
+
+Dense rank does the same work except it doesn't skip the number.
+
+
+```
+SYNTAX:
+
+select 
+Row_Number() over (order by salary desc) RowNumber,
+Row_Number() over (partition by some_column order by salary desc) partNumber,  
+rank() over (order by salary desc) RankId,  
+dense_rank() over (order by salary desc) DenseRank 
+from Employee
+
+```
+
 - Reference: [Video tutorial on RowNumber,Partition,Rank and DenseRank](https://youtu.be/QFj-hZi8MKk)
 
 3. Views
@@ -34,3 +51,15 @@ third highest salary we will write **offset 2**.
 5. Stored procedures
 
 6. Remove duplicates in a column without using distinct
+
+sol:
+```
+1. select unique emp_name from employee;
+
+2. select emp_name from employee group by emp_name;
+
+3. select emp_name from employee union select emp_name from employee;
+```
+- Reference: [How To Get unique records without using distinct in oracle](https://youtu.be/2G8zuE5JuUA)
+
+

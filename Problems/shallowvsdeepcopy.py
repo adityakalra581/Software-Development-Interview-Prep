@@ -32,6 +32,17 @@ print(lst2)
 ## [1, 2, 3]
 ## There is no change in second list
 
+print("-------------------------------------")
+lst1.append([4,5,6])
+print("List1: ",lst1)
+print("List 2 After appending: ",lst2)
+
+## Output:
+# List1:  [100, 2, 3, [4, 5, 6]]
+# List 2 After appending:  [1, 2, 3]
+
+print("------------------------------------")
+
 ## Let's try another use case:
 
 temp1 = [[1,2,3],[4,5,6]]
@@ -42,6 +53,8 @@ print("before altering element: ",temp2)
 temp1[1][0] = 1000
 print("After altering element List 1: ",temp1)
 print("After altering element List 2: ",temp2)
+print("------------------------------------")
+
 
 # --------------------------------------
 ## Output: 

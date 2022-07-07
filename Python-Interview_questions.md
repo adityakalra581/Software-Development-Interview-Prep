@@ -2,7 +2,7 @@
 ### Python Interview Questions 
 
 
--References: 
+- References: 
 1. [52 most asked interview questions](https://youtu.be/YeupGcOW-3k)
 2. [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status), 
 3. [Rest Api tutorial](https://www.restapitutorial.com/httpstatuscodes.html)
@@ -190,6 +190,13 @@ Create a method to print and call an object for this class.
 10. How can you get a first digit of a string?
 11. Regular expressions?
 12. Which class do we use for ‘regular expression’ in python?
+13. Explain string.capitalize() in python
+14. File handling [Reading, peeking on top, open in different modes]
+15. Ordered vs Unordered data structures in python.
+
+- Ordered means that the data structure retains the ordering as provided by the programmer; Python examples of ordered structures are strings, lists, and tuples. The ordering being discussed here is the result of iterating around the structure in a for loop.
+
+- Non ordered means that the data structure doesn’t have a specific order, and doesn’t care about any ordering by the programmer. In Python a set is non-ordered, and a dictionary is mostly non-ordered (it preserves the order in which the keys are added, but a programmer cannot insert something as the 3rd item into a dictionary).
 
 <!-- ------------------------------------------------ -->
 
@@ -236,6 +243,23 @@ Create a method to print and call an object for this class.
 
 ### Numpy and Pandas Interview Questions
 
+- References:
+1. [Pandas Documentation](https://pandas.pydata.org/docs/getting_started/install.html)
+
 1. How to add two dataframes
+-----------------------------------------------
+sol: 
+1. merge
+2. Concat
+3. append
+4. join
+--------------------------------------
 2. Does Pandas support SQL Queries
+3. Merging two dataframes on a single column
+
+sol: pandas.merge command [side by side merging]
+
+- Reference:
+1. [Pandas merge docs](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html)
+2. [Pandas merge](https://youtu.be/h4hOPGo4UVU)
 

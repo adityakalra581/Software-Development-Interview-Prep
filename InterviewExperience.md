@@ -1,5 +1,19 @@
 <!-- ------------------------------------------------------------ -->
 
+### Companies I Interviewed for [Python Developer or related profile]
+
+1. Coding Ninjas - Failed
+2. Deloitte - Failed
+3. Bold - Failed
+4. Zenarate - Failed
+5. Sunday Labs - Failed
+6. Octros - Failed
+7. TCS - Cleared
+8. Capgemini - Cleared
+9. Gemini Solutions - Cleared
+10. Tetaras Data - Cleared
+
+
 ### Coding Ninjas Jan 2022
 **[FAILED SECOND ROUND]**
 
@@ -294,17 +308,27 @@ Sol: In SQL, a view is a virtual table based on the result-set of an SQL stateme
 Reference: [Amazon Machine Image](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html)
 
 2. What is AWS lambda
+
 3. What do you understand by Serverless
+
 4. EC2 vs Lambda
+
 5. Use cases of lambda function
+
 6. What is lambda layer
+
+- Reference: [Video tutorial](https://youtu.be/stovPJCVXcw)
+
 7. Extra storage in EC2
+
 8. What tier do you use for s3 bucket
 
 and a lot about EC2 ..................
 
 9. Modules you have used in python.
+
 10. What kind of CI/CD pipeline you use.
+
 sol: Jenkins we use, other tools are azure pipelines and github actions.
 
 11. Rank vs Dense Rank   
@@ -424,8 +448,8 @@ print("DeepCopy After altering element List 2: ",temp2)
 4. What is destructor
 5. List vs Tuple memory management
 
-### Capgemini AWS-Python Profile 1st Round [20th June 2022]
-**[Cleared]**
+### Capgemini AWS-Python Profile 
+**1st Round [20th June 2022] [Cleared]**
 
 - Python and SQL:
 
@@ -445,13 +469,115 @@ print("DeepCopy After altering element List 2: ",temp2)
 2. S3
 3. Elastic BeanStalk
 4. Lambda [Use Cases]
-5. IM role importance
+5. IAM role importance
 6. SQS, SNS services
 7. Different types of services in AWS
-8. Global services in AWS
-9. Region specific services in AWS
-10. How do you use s3 services
-11. Other storage services in AWS apart from s3
+8. Global and region services in AWS
+9. Storage limit in AWS S3 bucket
+
+sol: The total volume of data and number of objects you can store are unlimited. Individual Amazon S3 objects can range in size from a minimum of 0 bytes to a maximum of 5 TB. The largest object that can be uploaded in a single PUT is 5 GB. For objects larger than 100 MB, customers should consider using the Multipart Upload capability.
+-----------------------------------------
+sol: 
+- Global Services: Services that has global in the region specification area
+
+1. AWS IAM
+2. Amazon S3
+3. Amazon Route 53
+4. Amazon CloudFront
+
+- Region Specific: Services that requires you to specify a region:
+
+1. Amazon EC2
+2. AWS Lambda
+3. RDS
+4. DynamoDB
+etc.....
+------------------------------------------------------------
+
+
+9. How do you use s3 services
+10. Other storage services in AWS apart from s3
+----------------------------------------------
+sol:
+1. S3 Glacier
+2. Elastic Block Store (EBS)
+3. Elastic File System (EFS)
+4. Amazon Storage Gateway
+5. Snowball
+6. Snowmobile
+-------------------------------------------
+
+**2nd Round [24th June 2022] [Cleared]**
+
+1. A basic pattern program
+2. ETL experience
+3. Some agile based questions
+4. CI/CD pipeline
+5. Libraries in python you have used.
+6. Lambda functions
+7. Step functions
+
+**3rd Round (Client Interview) [29th June 2022] [Cleared]**
+
+1. 5th highest salary in a table of employees.
+2. Basic experience of agile, ETL and release
+3. Basic Intro of client and project
+
+**4th Round [30th June 2022] [Cleared]**
+
+- Amcat based english test (30 minutes)
 
 
 
+### Octros Technical Round [22nd June]
+**[Failed]**
+
+1. Valid parenthesis
+
+- References:
+1. [NeetCode](https://youtu.be/WTzjTskDFMg)
+2. [LeetCode Question](https://leetcode.com/problems/valid-parentheses/)
+
+```
+#Valid Parenthesis:
+## Algorithm:
+
+
+
+# Step1: Create a dictionary which has closing bracket as a key and value as open bracket.
+# Step2: Iterate over string
+# Step3: Check if stack has anything and top most element of stack has open bracket of iterating bracket, If yes remove that
+# Step4: Else return false [Brackets are imbalance]
+# Step5: If it is an open bracket just add it into the stack
+# Step6: Return true if stack is empty or false if not
+
+str = "((()))"
+str2 = ")))((("
+str3 = "[)[)"
+
+def isValid(s: str):
+    stack = []
+    closeToOpen = {")":"(","}":"{","]":"["}
+    
+    for i in s:
+        if i in closeToOpen:
+            if stack and stack[-1] == closeToOpen[i]:
+                stack.pop()
+            else:
+                return False
+        else:
+            stack.append(i)
+    return True if not stack else False
+        
+
+test = isValid(str3)
+print(test)
+
+## Time Complexity: O(n)
+## Space Complexity: O(n)
+```
+
+
+2. Finding out three numbers in a given list whose sum is equal to a given number
+3. How to do Authentication in python
+4. Token generation process in django or flask
