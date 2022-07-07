@@ -498,8 +498,8 @@ sol: The total volume of data and number of objects you can store are unlimited.
 
 
 
-9. How do you use s3 services
-10. Other storage services in AWS apart from s3
+10. How do you use s3 services
+11. Other storage services in AWS apart from s3
 
 ```
 sol:
