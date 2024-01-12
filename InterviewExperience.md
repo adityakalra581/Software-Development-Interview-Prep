@@ -88,7 +88,7 @@ for i in temp:
 
 print(output)
 ```
-7. What are APIs
+7. What are APIs (Application programming interface)
 8. Difference between PUT and POST methods
 9. What is Filter, Map and Reduce
 
