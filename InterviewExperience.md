@@ -67,6 +67,21 @@ Django is based on MVT (Model-View-Template) architecture. MVT is a software des
 (https://www.geeksforgeeks.org/django-project-mvt-structure/)
 ```
 2. Database connection in Django. Difference between MVC and MVT architecture
+
+```
+DB connection in django: Adding DATABASES in settings.py. Django officially supports the following databases: PostgreSQL. MariaDB. MySQL.
+Default is sqlite3
+Reference: https://www.geeksforgeeks.org/how-to-integrate-mysql-database-with-django/
+
+MVC: Model(DB connection,queries) View(UI) Controller(Business logic)
+Tech using MVC: Ruby on Rails, Spring MVC,Java Servlet,Laravel, Express, and Angular
+
+
+MVT: Model(DB connection,queries) View(Business logic) Template(UI)
+
+Reference: https://youtu.be/HnbDM1fIkng?si=FL4l0M_dAayIna_6
+```
+
 3. What is ORM and have you used it, if yes How?
 
 **- SQL**
