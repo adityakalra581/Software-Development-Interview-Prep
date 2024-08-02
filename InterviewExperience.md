@@ -72,22 +72,28 @@ Django is based on MVT (Model-View-Template) architecture. MVT is a software des
 DB connection in django: Adding DATABASES in settings.py. Django officially supports the following databases: PostgreSQL. MariaDB. MySQL.
 Default is sqlite3
 Reference: https://www.geeksforgeeks.org/how-to-integrate-mysql-database-with-django/
-
+--------------------------------------------------------------------------------
 MVC: Model(DB connection,queries) View(UI) Controller(Business logic)
 Tech using MVC: Ruby on Rails, Spring MVC,Java Servlet,Laravel, Express, and Angular
 
-
 MVT: Model(DB connection,queries) View(Business logic) Template(UI)
-
+------------------------------------------------------------------------------
 Reference: https://youtu.be/HnbDM1fIkng?si=FL4l0M_dAayIna_6
 ```
 
 3. What is ORM and have you used it, if yes How?
-
+```
+Django ORM (Object-Relational Mapping) module is a feature of the Django web framework that enables developers to interact with databases using high-level object-oriented APIs instead of writing SQL queries directly.
+```
 **- SQL**
 
 4. Maximum value of a column in a table
 5. Top 5 values of a column
+
+```
+select * from table where column = (select max(column) from table);
+select * from table order by column desc limit 5;
+```
 
 **- Python**
 
