@@ -24,12 +24,14 @@
 - Q.3 Time complexities of many algorithms and Data structure operations
 
 - Q.4 HTTP verbs
+
+```
 - Get,Post,Put,Delete (Main ones), others: Head,connect,options,trade,patch
 - (https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
 - Follow up question: diff. between put and patch?
 - (https://www.geeksforgeeks.org/difference-between-put-and-patch-request/)
-
+```
 
 ### Expedia SDE 2 Hackerrank Test 8th March 2022
 **[CLEARED]**
