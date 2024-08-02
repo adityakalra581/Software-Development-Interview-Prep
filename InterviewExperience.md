@@ -62,8 +62,12 @@ Reference: https://leetcode.com/discuss/interview-question/865012/number-of-move
 **- Django**
 
 1. Architecture of Django
-2. Database connection in Django. Difference between MVC and MVT architecture
-3. What is ORM and have you used it, if yes How?
+```
+Django is based on MVT (Model-View-Template) architecture. MVT is a software design pattern for developing a web application.
+(https://www.geeksforgeeks.org/django-project-mvt-structure/)
+```
+3. Database connection in Django. Difference between MVC and MVT architecture
+4. What is ORM and have you used it, if yes How?
 
 **- SQL**
 
