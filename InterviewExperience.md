@@ -192,7 +192,7 @@ Sol: Many legacy systems may still adhere to SOAP, while REST came later and is 
 
 REST APIs are lightweight, making them ideal for newer contexts like the Internet of Things (IoT), mobile application development, and serverless computing. SOAP web services offer built-in security and transaction compliance that align with many enterprise needs, but that also makes them heavier. Additionally, many public APIs, like the Google Maps API, follow the REST guidelines.
 
--Reference: [Rest vs soap](https://www.redhat.com/en/topics/integration/whats-the-difference-between-soap-rest)
+- Reference: [Rest vs soap](https://www.redhat.com/en/topics/integration/whats-the-difference-between-soap-rest)
 
 9. Multiple Jquery versions on same page ?
 10. Check if string is palindrom
