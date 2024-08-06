@@ -27,9 +27,15 @@ third highest salary we will write **offset 2**.
 
 2. Row_number vs Partition vs Rank vs Dense Rank
 
-sol: rank creates unique number for different records but same number for same records. Keeping in mind rank will skip the numbers if there are duplicate records
+sol: 
+- RANK() assigns the same rank with gaps for equal values.
+- DENSE_RANK() assigns the same rank without gaps for equal values.
+- ROW_NUMBER() assigns a unique rank to each row.
 
-Dense rank does the same work except it doesn't skip the number.
+Explanation: rank creates unique number for different records but same number for same records. Keeping in mind rank will skip the numbers if there are duplicate records for eg.
+if there are duplicates they will get same rank(let's say 4) and next rank will be given as 6 considering there are just two values at rank 4.
+
+Dense rank does the same work except it doesn't skip the number. For the same example given above if two records have rank 4 so the next rank would be 5.
 
 
 ```
@@ -43,7 +49,7 @@ dense_rank() over (order by salary desc) DenseRank
 from Employee
 
 ```
-
+- Article: (https://www.naukri.com/code360/library/difference-between-rank-and-denserank)
 - Reference: [Video tutorial on RowNumber,Partition,Rank and DenseRank](https://youtu.be/QFj-hZi8MKk)
 
 3. Views
