@@ -210,10 +210,17 @@ Create a method to print and call an object for this class.
 3. Any JavaScript Experience?
 4. What is Django?
 5. What can you build with Django?
+- (https://www.netguru.com/blog/django-apps-examples)
 6. Difference Between a Project & App?
+- Entire website can be considered as project and apps are small component of a project. For ex. Facebook.com is a project and news feed can be an app for it in django terms
 7. How do we initialize a project?
 8. How do we initialize an app?
 9. How do we start our development server?
+```
+django-admin startproject <project_name>
+python manage.py startapp
+python manage.py runserver
+```
 10. What does the settings.py file do?
 11. What are models? What are views? What are templates?
 12. What are url patterns?
