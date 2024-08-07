@@ -12,8 +12,12 @@ print("The second highest element using sort function: ",input[-2])
 # ---------------------------------------------------------------------------
 ## Without inbuilt functions:
 
+print("--------------------------------------------------")
+print("List:",input)
 maximum = max(input[0],input[1])
+print("max of list:",maximum)
 secondMax = min(input[0],input[1])
+print("min of list:",secondMax)
 n = len(input)
 
 for i in range(2,n):
