@@ -137,6 +137,9 @@ Reference: [Filter, Map and Reduce](https://www.analyticsvidhya.com/blog/2021/07
 (https://www.geeksforgeeks.org/with-statement-in-python/)
 ```
 12. Give few example of the math functions
+```
+(https://www.w3schools.com/python/module_math.asp)
+```
 13. Explain and give examples of short hand operators
 14. Is python dynamically typed language
 15. Is numpy series a linear data structure.
