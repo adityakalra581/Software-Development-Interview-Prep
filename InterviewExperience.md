@@ -133,6 +133,9 @@ Reference: [Filter, Map and Reduce](https://www.analyticsvidhya.com/blog/2021/07
 (https://www.geeksforgeeks.org/file-handling-python/)
 ```
 11. Explain **with** keyword
+```
+(https://www.geeksforgeeks.org/with-statement-in-python/)
+```
 12. Give few example of the math functions
 13. Explain and give examples of short hand operators
 14. Is python dynamically typed language
