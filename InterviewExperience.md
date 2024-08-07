@@ -166,7 +166,10 @@ select *from employee group by salary order by  salary desc limit 1,1;
 ```
 solution: [second highest salary article](https://www.geeksforgeeks.org/sql-query-to-find-second-largest-salary/)
 
-2. What is PIP in python
+2. What is PIP(Preferred Installer Program) in python
+```
+Pip is a package manager for Python that makes it easier to install and manage third-party libraries. It allows you to download and manage Python packages from the Python Package Index (PyPI) or other package repositories. For example, you can use the command pip install package_name to install packages.
+```
 3. Set vs tuples difference
 4. What are immutable data structures
 5. Difference between the latest python version and versions before that
