@@ -129,6 +129,9 @@ Sol: reduce() works differently than map() and filter() . It does not return a n
 Reference: [Filter, Map and Reduce](https://www.analyticsvidhya.com/blog/2021/07/python-most-powerful-functions-map-filter-and-reduce-in-5-minutes/)
 
 10. How to open a file in python
+```
+(https://www.geeksforgeeks.org/file-handling-python/)
+```
 11. Explain **with** keyword
 12. Give few example of the math functions
 13. Explain and give examples of short hand operators
