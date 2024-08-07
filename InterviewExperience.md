@@ -141,7 +141,14 @@ Reference: [Filter, Map and Reduce](https://www.analyticsvidhya.com/blog/2021/07
 (https://www.w3schools.com/python/module_math.asp)
 ```
 13. Explain and give examples of short hand operators
-14. Is python dynamically typed language
+14. Is python dynamically typed language?
+```
+Dynamically typed languages
+Perform type checking at runtime, while the code is being executed. This means that dynamically typed languages can compile even if they contain errors that will prevent the script from running properly. Examples of dynamically typed languages include Python, Ruby, and JavaScript.
+Statically typed languages
+Perform type checking at compile time, before the code is executed. This means that statically typed languages will fail to compile until the errors have been fixed. Examples of statically typed languages include Java, C++, and C#. 
+
+```
 15. Is numpy series a linear data structure.
 16. List vs numpy array?
 
