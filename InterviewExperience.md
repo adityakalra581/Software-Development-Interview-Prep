@@ -607,6 +607,13 @@ Deep Copy: Creates copies of all nested objects, so the original and copied obje
 
 1. Shallow vs Deep Copy
 2. Remove duplicates in a column without using distinct
+```
+select plan_num from temp_table
+qualify row_number() over (partition by plan_num order by plan_num) = 1;
+
+** Same result without distinct. Row number will assign a unique number for same entries therefore we can get the row number = 1 to get all the unique entries.
+** Qualify is nothing but similar to Where and Having clauses but for window functions.
+```
 3. Adding two dataframes in pandas
 4. Reversing a string
 5. Map function
