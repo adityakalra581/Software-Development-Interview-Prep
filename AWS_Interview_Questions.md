@@ -3,6 +3,7 @@
 References:
 - https://www.interviewbit.com/aws-lambda-interview-questions/
 - https://youtu.be/6EhKPafkXhQ?si=krsf6y8i80qZAIdc
+- https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
 
 1. What is AWS Lambda?
 2. How does AWS Lambda work?
