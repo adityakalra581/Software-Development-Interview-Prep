@@ -590,7 +590,11 @@ print("DeepCopy After altering element List 2: ",temp2)
 # DeepCopy After altering element List 1:  [[1, 2, 3], [1000, 5, 6]]
 # DeepCopy After altering element List 2:  [[1, 2, 3], [4, 5, 6]]
 
-
+- What are the Consequences of Using Shallow Copy on Mutable Objects?
+Shared References: Changes to mutable nested objects in the copied object will affect the original object and vice versa. This is because the nested objects are shared between the original and copied instances.
+- How Do deepcopy and Shallow Copy Affect Nested Objects in Python?
+Shallow Copy: Copies only the outer object and keeps references to nested objects, so modifications to nested objects are reflected in both the original and copied objects.
+Deep Copy: Creates copies of all nested objects, so the original and copied objects are entirely separate, and changes to one do not affect the other.
 
 ```
 4. What is destructor
