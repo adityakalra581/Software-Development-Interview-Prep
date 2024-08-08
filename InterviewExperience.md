@@ -634,8 +634,47 @@ print("Reversed list: ",temp)
 ## .split() will split each word, [::-1]: reverse order, " ".join(): join list every element with a space
 ## temp will be a list before join, after join becomes a string.
 ```
-5. Map function
-6. lambda function
+5. Map,filter,reduce and lambda functions.
+```
+from functools import reduce
+
+n = [1,2,3,4,5,10,11]
+# ------------------------------------------------------
+
+# A lambda function is a small anonymous function.
+# A lambda function can take any number of arguments, but can only have one expression.
+print((lambda x:x+5)(6)) 
+
+# ---------------------------------------------------
+print(list(filter(lambda x:x%2==0,n)))
+# filter(function or None, iterable) --> filter object
+# Return an iterator yielding those items of iterable for which function(item)
+# is true. If function is None, return the items that are true.
+
+
+# -----------------------------------------------
+## map(func, *iterables) --> map object
+## Make an iterator that computes the function using arguments from
+## each of the iterables. Stops when the shortest iterable is exhausted.
+
+print(list(map(lambda x:x*2,n)))
+# --------------------------------------------
+
+## Reduce: cummalative function to reduce the iterable to a single value
+print(reduce(lambda x,y:x+y,n))
+
+## reduce(function, sequence[, initial]) -> value
+
+# Apply a function of two arguments cumulatively to the items of a sequence,
+# from left to right, so as to reduce the sequence to a single value.
+# For example, reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]) calculates
+# ((((1+2)+3)+4)+5). If initial is present, it is placed before the items
+# of the sequence in the calculation, and serves as a default when the
+# sequence is empty.
+```
+- Reference:
+[Map Functions](https://youtu.be/8q2vICb89ys?si=-PeggfFs8P-aVRn5),  
+[Lambda Functions](https://youtu.be/KR22jigJLok?si=pcVa_jqHhos5jfFA)
 7. List slicing vs split
 8. functions in strings
 9. List Comprehension
