@@ -360,6 +360,39 @@ FastAPI is also an open-source Starlette-ASGI (Asynchronous Server Gateway Inter
 ```
 
 2. urls in flask or routing in flask
+```
+Using @app.route for examples:
+@app.route("/login")
+def login():
+    return render_template('login.html')
+
+## Add a login:
+@app.route('/login',methods=['POST'])
+def add_login():
+    name = request.json['name']
+    email = request.json['email']
+    phone = request.json['phone']
+    password = request.json['password']
+    
+    new_login = Login(name,email,phone,password)
+
+    db.session.add(new_login)
+    db.session.commit()
+
+    return login_schema.jsonify(new_login)
+
+
+
+## All logins
+@app.route('/login',methods=['GET'])
+def get_logins():
+    all_logins = Login.query.all()
+    result = logins_schema.dump(all_logins)
+    return jsonify(result)
+
+
+(https://www.youtube.com/watch?v=XTLg6TLfy7M)
+```
 3. Services of AWS you have used
 4. AWS Lambda
 5. Directories or file structure django vs flask projects
