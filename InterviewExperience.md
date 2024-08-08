@@ -176,15 +176,15 @@ Pip is a package manager for Python that makes it easier to install and manage t
 6. Coding Question: Reverse the sentence
 
 ```
+## Reverse a sentence
+## Input: "my name is aditya"
+## Required output: aditya is name my
+
 new = "my name is aditya"
-temp = new.split()[::-1]
+temp = " ".join(new.split()[::-1]) 
 print("Reversed list: ",temp)
-output = []
-
-for i in temp:
-    output.append(i)
-
-print("final result:", " ".join(output))
+## .split() will split each word, [::-1]: reverse order, " ".join(): join list every element with a space
+## temp will be a list before join, after join becomes a string.
 ```
 
 ### ZENARATE Technical interview may 31st
