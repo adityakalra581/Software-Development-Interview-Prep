@@ -676,8 +676,43 @@ print(reduce(lambda x,y:x+y,n))
 [Map Functions](https://youtu.be/8q2vICb89ys?si=-PeggfFs8P-aVRn5),  
 [Lambda Functions](https://youtu.be/KR22jigJLok?si=pcVa_jqHhos5jfFA)
 7. List slicing vs split
+```
+## List Split
+random_string = "Hey, there. How are you?"
+lst3 = random_string.split(" ")
+print("Split List:",lst3)
+## .split(<separator>): separator can be anything. comma,semicolon etc.
+# Output: Split List: ['Hey,', 'there.', 'How', 'are', 'you?']
+
+
+## List Slicing:
+#  syntax: list_name[start_index:end_index:jump]: end_index is not included
+print("List slicing:",lst[1:3:1])
+print("Reversed List using slicing:",lst[::-1])
+
+##Output:
+## List slicing: [2, 3]
+## Reversed List using slicing: [5, 4, 3, 2, 1]
+
+```
 8. functions in strings
 9. List Comprehension
+```
+lst = [1,2,3,4,5,10,12,90]
+## List comprehension
+### Case 1: Create a list which is squared of each number
+
+lst1 = [x*2 for x in lst]
+print(lst1)
+
+### Output:[2, 4, 6, 8, 10, 20, 24, 180]
+
+### Case 2: Create a list which check another list: if iterator is even put 0 else put 1
+
+lst2 = [ 1 if x%2==0 else 0 for x in lst]
+print(lst2)
+### Output: [0, 1, 0, 1, 0, 1, 1, 1]
+```
 
 - AWS:
 
