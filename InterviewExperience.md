@@ -346,6 +346,19 @@ Sol: In SQL, a view is a virtual table based on the result-set of an SQL stateme
 - **First round** [Cleared]
 
 1. Flask vs Django
+```
+What is Django?
+Django is an open-source full-stack web framework written in Python that follows the MVT (model-view-template) architectural pattern and a DRY principle (Don’t Repeat Yourself). It was made by Adrian Holovaty and Simon Willison and was publicly published in 2005. The name given is based on the singer Django Reinhardt. It is a great choice who want to build web applications that are secure, scalable, flexible, and easy to maintain
+
+What is Flask?
+Flask is an open-source beginner-friendly micro-web framework written in Python that follows the MVC (model-view-controller) architectural pattern and supports Jinja templates, which can be used to create views. It was made by Armin Ronacher of Pocoo, an international group of Python enthusiasts formed in 2004. The name “Flask” is a reference to the earlier Bottle framework. It is a great choice to build small to medium level web application and where performance is not much of a issue and developer need flexibility.
+
+
+What is FastAPI?
+FastAPI is also an open-source Starlette-ASGI (Asynchronous Server Gateway Interface) micro-web framework written in Python used to create RESTful APIs. It was made by Sebastián Ramírez in December 2018. The name is based on the speed to develop API hence ‘FastAPI’. It is a great choice for building fast performance APIs and microservices
+- (https://www.geeksforgeeks.org/comparison-of-fastapi-with-django-and-flask/)
+```
+
 2. urls in flask or routing in flask
 3. Services of AWS you have used
 4. AWS Lambda
