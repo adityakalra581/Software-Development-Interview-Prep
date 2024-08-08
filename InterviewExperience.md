@@ -406,12 +406,49 @@ def get_logins():
 Reference: [Amazon Machine Image](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html)
 
 2. What is AWS lambda
+```
+AWS Lambda, or Amazon Web Services Lambda, is a serverless computing cloud service that allows developers to run code in response to events without managing servers. It's sometimes called function-as-a-service (FaaS).
+You can use AWS Lambda to run code without provisioning or managing servers.
+Lambda runs your code on a high-availability compute infrastructure and performs all of the administration of the compute resources, including server and operating system maintenance, capacity provisioning and automatic scaling, and logging. With Lambda, all you need to do is supply your code in one of the language runtimes that Lambda supports.
+You organize your code into Lambda functions. The Lambda service runs your function only when needed and scales automatically. You only pay for the compute time that you consume—there is no charge when your code is not running.
+
+Lambda is an ideal compute service for application scenarios that need to scale up rapidly, and scale down to zero when not in demand. For example, you can use Lambda for:
+File processing: Use Amazon Simple Storage Service (Amazon S3) to trigger Lambda data processing in real time after an upload. 
+
+References:
+(https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+(https://www.interviewbit.com/aws-lambda-interview-questions/)
+```
 
 3. What do you understand by Serverless
+```
+Serverless computing in Amazon Web Services (AWS) allows developers to build and run applications and services without managing servers. Instead, AWS manages the underlying infrastructure, including provisioning, scaling, and maintenance. This allows developers to focus on their application code, while still receiving the benefits of cost-effective, efficient, and scalable server infrastructure. 
+
+```
 
 4. EC2 vs Lambda
+```
+EC2
+A virtual cloud infrastructure service that offers resizable compute capacity in the cloud. It's a traditional compute solution that can be used for high-performance computing, disaster recovery, and DevOps processes.
+Serverless
+An execution model where the cloud provider dynamically allocates resources to execute code. Serverless computing services can be cost-efficient, scalable, and provide built-in availability and fault tolerance.
+
+The choice between EC2 and a serverless service depends on your use case and requirements. For example, AWS Lambda is a serverless service that can be used for applications that run on-demand in 15 minutes or less, or when you want to pay only for the capacity you use.
+```
 
 5. Use cases of lambda function
+```
+When to use Lambda
+
+Lambda is an ideal compute service for application scenarios that need to scale up rapidly, and scale down to zero when not in demand. For example, you can use Lambda for:
+File processing: Use Amazon Simple Storage Service (Amazon S3) to trigger Lambda data processing in real time after an upload.
+Stream processing: Use Lambda and Amazon Kinesis to process real-time streaming data for application activity tracking, transaction order processing, clickstream analysis, data cleansing, log filtering, indexing, social media analysis, Internet of Things (IoT) device data telemetry, and metering.
+Web applications: Combine Lambda with other AWS services to build powerful web applications that automatically scale up and down and run in a highly available configuration across multiple data centers.
+IoT backends: Build serverless backends using Lambda to handle web, mobile, IoT, and third-party API requests.
+Mobile backends: Build backends using Lambda and Amazon API Gateway to authenticate and process API requests. Use AWS Amplify to easily integrate with your iOS, Android, Web, and React Native frontends.
+
+When using Lambda, you are responsible only for your code. Lambda manages the compute fleet that offers a balance of memory, CPU, network, and other resources to run your code. Because Lambda manages these resources, you cannot log in to compute instances or customize the operating system on provided runtimes. Lambda performs operational and administrative activities on your behalf, including managing capacity, monitoring, and logging your Lambda functions.
+```
 
 6. What is lambda layer
 
