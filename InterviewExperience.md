@@ -623,6 +623,17 @@ pandas.merge(left, right, how='inner', on=None, left_on=None, right_on=None, lef
 - Reference: [Pandas Docs](https://pandas.pydata.org/docs/reference/api/pandas.merge.html)
 
 4. Reversing a string
+```
+## Reverse a sentence
+## Input: "my name is aditya"
+## Required output: aditya is name my
+
+new = "my name is aditya"
+temp = " ".join(new.split()[::-1]) 
+print("Reversed list: ",temp)
+## .split() will split each word, [::-1]: reverse order, " ".join(): join list every element with a space
+## temp will be a list before join, after join becomes a string.
+```
 5. Map function
 6. lambda function
 7. List slicing vs split
