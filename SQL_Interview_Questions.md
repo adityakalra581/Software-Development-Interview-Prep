@@ -68,4 +68,5 @@ sol:
 ```
 - Reference: [How To Get unique records without using distinct in oracle](https://youtu.be/2G8zuE5JuUA)
 
-
+7. Window functions and giving window
+- Reference: [window functions](https://docs.snowflake.com/en/sql-reference/functions-analytic)
