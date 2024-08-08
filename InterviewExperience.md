@@ -464,8 +464,8 @@ To use the Lambda console code editor. The code editor is a useful tool for test
 ```
 
 - References:
-[AWS Lambda Layer](https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html#:~:text=A%20Lambda%20layer%20is%20a,size%20of%20your%20deployment%20packages)
-[Video tutorial](https://youtu.be/stovPJCVXcw)
+- [AWS Lambda Layer](https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html#:~:text=A%20Lambda%20layer%20is%20a,size%20of%20your%20deployment%20packages)
+- [Video tutorial](https://youtu.be/stovPJCVXcw)
 
 7. Extra storage in EC2
 
