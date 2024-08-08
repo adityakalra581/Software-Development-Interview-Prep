@@ -615,6 +615,13 @@ qualify row_number() over (partition by plan_num order by plan_num) = 1;
 ** Qualify is nothing but similar to Where and Having clauses but for window functions.
 ```
 3. Adding two dataframes in pandas
+```
+Two commands can be used are:
+pandas.concat(objs, *, axis=0, join='outer', ignore_index=False, keys=None, levels=None, names=None, verify_integrity=False, sort=False, copy=None)
+pandas.merge(left, right, how='inner', on=None, left_on=None, right_on=None, left_index=False, right_index=False, sort=False, suffixes=('_x', '_y'), copy=None, indicator=False, validate=None)
+```
+- Reference: [Pandas Docs](https://pandas.pydata.org/docs/reference/api/pandas.merge.html)
+
 4. Reversing a string
 5. Map function
 6. lambda function
