@@ -451,8 +451,21 @@ When using Lambda, you are responsible only for your code. Lambda manages the co
 ```
 
 6. What is lambda layer
+```
+A Lambda layer is a .zip file archive that contains supplementary code or data. Layers usually contain library dependencies, a custom runtime, or configuration files.
 
-- Reference: [Video tutorial](https://youtu.be/stovPJCVXcw)
+There are multiple reasons why you might consider using layers:
+To reduce the size of your deployment packages. Instead of including all of your function dependencies along with your function code in your deployment package, put them in a layer. This keeps deployment packages small and organized.
+To separate core function logic from dependencies. With layers, you can update your function dependencies independent of your function code, and vice versa. This promotes separation of concerns and helps you focus on your function logic.
+To share dependencies across multiple functions. After you create a layer, you can apply it to any number of functions in your account. Without layers, you need to include the same dependencies in each individual deployment package.
+To use the Lambda console code editor. The code editor is a useful tool for testing minor function code updates quickly. However, you can’t use the editor if your deployment package size is too large. Using layers reduces your package size and can unlock usage of the code editor.
+
+
+```
+
+- References:
+[AWS Lambda Layer](https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html#:~:text=A%20Lambda%20layer%20is%20a,size%20of%20your%20deployment%20packages)
+[Video tutorial](https://youtu.be/stovPJCVXcw)
 
 7. Extra storage in EC2
 
