@@ -1,11 +1,11 @@
-### Software Development Interview Prep
+## Software Development Interview Prep
 
 This Repository contains all the python Codes and Tutorials,past interview experience,expected questions based on skills and lot more curated over number of years on my experience as interviewee.
 
 - References:
 [Starting Approach](https://youtu.be/nw0m3-N9G5Y?si=I4K6gFiOpAuHEL14)
 
-## Python
+### Python
 
 I have linked the important libraries in this readme anyways for reference as well.
  
