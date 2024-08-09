@@ -780,6 +780,15 @@ sol:
 5. Libraries in python you have used.
 6. Lambda functions
 7. Step functions
+```
+With AWS Step Functions, you can create workflows, also called state machines, to build distributed applications, automate processes, orchestrate microservices, and create data and machine learning pipelines.
+Step Functions is based on state machines and tasks. In Step Functions, state machines are called workflows, which are a series of event-driven steps. Each step in a workflow is called a state. For example, a Task state represents a unit of work that another AWS service performs, such as calling another AWS service or API. Instances of running workflows performing tasks are called executions in Step Functions.
+
+Why do we need a step function?
+Step Functions sends requests to other services, waits for the task to complete, and then continues to the next step in the workflow. They can be used easily for automated steps, such as executing a Lambda function.
+```
+
+- Reference: [Step functions](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html)
 
 **3rd Round (Client Interview) [29th June 2022] [Cleared]**
 
