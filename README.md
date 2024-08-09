@@ -2,8 +2,8 @@
 
 This Repository contains all the python Codes and Tutorials,past interview experience,expected questions based on skills and lot more curated over number of years on my experience as interviewee.
 
-References:
-(Starting Approach)[https://youtu.be/nw0m3-N9G5Y?si=I4K6gFiOpAuHEL14]
+- References:
+[Starting Approach](https://youtu.be/nw0m3-N9G5Y?si=I4K6gFiOpAuHEL14)
 
 ## Python
 
