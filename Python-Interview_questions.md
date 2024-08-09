@@ -89,6 +89,9 @@ print(facto(5)) # directly coming from saved memory
 - Reference: [Memoization Decorators](https://www.geeksforgeeks.org/memoization-using-decorators-in-python/)
 
 14. Why recursion is some cases not considered as efficient
+
+- Recursive algorithms are often inefficient for small data, **due to the overhead of repeated function calls and returns**. For this reason efficient implementations of recursive algorithms often start with the recursive algorithm, but then switch to a different algorithm when the input becomes small.
+
 15. Explain dynamic programming
 16. What is 
 ```
