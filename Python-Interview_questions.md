@@ -1,11 +1,12 @@
 
-### Python Interview Questions 
+## Python Interview Questions 
 
 
-- References: 
-1. [52 most asked interview questions](https://youtu.be/YeupGcOW-3k)
-2. [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status), 
-3. [Rest Api tutorial](https://www.restapitutorial.com/httpstatuscodes.html)
+**References**: 
+- [52 most asked interview questions](https://youtu.be/YeupGcOW-3k)
+- [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status), 
+- [Rest Api tutorial](https://www.restapitutorial.com/httpstatuscodes.html)
+- [Leet code solution videos](https://www.youtube.com/@NeetCode)
 
 1. Difference between Package and Module.
 
