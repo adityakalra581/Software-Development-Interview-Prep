@@ -54,6 +54,39 @@ Sol: HTTP response status codes indicate whether a specific HTTP request has bee
 - Server error responses (500–599)
 ```
 13. Explain Memoisation
+```
+# Factorial program with memoization using
+# decorators.
+
+# A decorator function for function 'f' passed
+# as parameter
+memory = {}
+def memoize_factorial(f):
+	
+	# This inner function has access to memory
+	# and 'f'
+	def inner(num):
+		if num not in memory:
+			memory[num] = f(num)
+			print('result saved in memory')
+		else:
+			print('returning result from saved memory')
+		return memory[num]
+
+	return inner
+	
+@memoize_factorial
+def facto(num):
+	if num == 1:
+		return 1
+	else:
+		return num * facto(num-1)
+
+print(facto(5))
+print(facto(5)) # directly coming from saved memory
+```
+- Reference: [Memoization Decorators](https://www.geeksforgeeks.org/memoization-using-decorators-in-python/)
+
 14. Why recursion is some cases not considered as efficient
 15. Explain dynamic programming
 16. What is 
