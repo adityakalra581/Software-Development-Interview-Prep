@@ -54,6 +54,7 @@ Sol: HTTP response status codes indicate whether a specific HTTP request has bee
 - Server error responses (500–599)
 ```
 13. Explain Memoisation
+- Memoization is a technique of recording the intermediate results so that it can be used to avoid repeated calculations and speed up the programs. It can be used to optimize the programs that use recursion. In Python, memoization can be done with the help of function decorators. 
 ```
 # Factorial program with memoization using
 # decorators.
