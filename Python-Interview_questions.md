@@ -7,6 +7,7 @@
 - [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status), 
 - [Rest Api tutorial](https://www.restapitutorial.com/httpstatuscodes.html)
 - [Leet code solution videos](https://www.youtube.com/@NeetCode)
+- [Important Concepts](https://youtu.be/mMv6OSuitWw?si=Do2WmtzYpcGNfrpO)
 
 1. Difference between Package and Module.
 
