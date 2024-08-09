@@ -130,6 +130,12 @@ Reference: [Filter, Map and Reduce](https://www.analyticsvidhya.com/blog/2021/07
 
 10. How to open a file in python
 ```
+# Python code to illustrate with()
+with open("geeks.txt") as file:  
+    data = file.read() 
+
+print(data)
+
 (https://www.geeksforgeeks.org/file-handling-python/)
 ```
 11. Explain **with** keyword
