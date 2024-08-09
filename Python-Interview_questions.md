@@ -258,13 +258,13 @@ python manage.py runserver
 1. [Pandas Documentation](https://pandas.pydata.org/docs/getting_started/install.html)
 
 1. How to add two dataframes
------------------------------------------------
+```
 sol: 
 1. merge
 2. Concat
 3. append
 4. join
---------------------------------------
+```
 2. Does Pandas support SQL Queries
 3. Merging two dataframes on a single column
 
