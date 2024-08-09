@@ -725,6 +725,7 @@ An EC2 instance is a virtual server in the AWS Cloud. When you launch an EC2 ins
 - Reference: [EC2 AWS Doc](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)
 
 2. S3
+- Reference: [S3 AWS Doc](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html)
 3. Elastic BeanStalk
 4. Lambda [Use Cases]
 5. IAM role importance
